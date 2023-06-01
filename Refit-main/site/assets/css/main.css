@@ -1102,7 +1102,7 @@ nobr {
     padding-bottom: 0;
 }
 .about .carousel-caption img {
-    width: 180px;
+    width: 155px;
     height: auto;
 }
 @media (min-width: 992px) {
@@ -1907,10 +1907,10 @@ nobr {
 }
 footer {
     background-color: #575B52;
-    padding: 100px 0;
+    padding: 60px 0;
     color: white;
     font-size: 14px;
-    line-height: 1.0rem;
+    line-height: 1.8rem;
 }
 footer .container {
     position: relative;
@@ -2020,3 +2020,6 @@ footer .btn--newsletter:hover {
     overflow: hidden;
     text-transform: uppercase;
 }
+
+
+  
