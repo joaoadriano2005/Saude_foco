@@ -7655,9 +7655,9 @@ button.bg-dark:hover {
         display: inline-block !important
     }
 
-    /*.d-lg-block {
+        .d-lg-block {
         display: block !important
-    }*/
+    }
 
     .d-lg-table {
         display: table !important

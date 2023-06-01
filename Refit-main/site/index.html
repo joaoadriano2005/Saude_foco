@@ -53,19 +53,17 @@
         <div class="leafs-hero-mobile d-block d-lg-none">
         </div>
         <div class="bg-left"></div>
-        <div class="bg-right d-none d-lg-block"></div>
+        <div class="bg-right d-none"></div>
         <div class="d-flex align-items-center justify-content-center">
-            <div class="bg-right d-none d-lg-block"></div>
+            <div class="bg-right d-none"></div>
             <div class="container">
-                <h2 class="text-vsl">Clique para ver o video</h2>
+                <h2 class="text text-vsl">Clique para ver o video</h2>
                 <video id="vsl" src="vsl/vls.mp4" data-ckin="default" data-overlay="1"></video>
             </div>
         </div>
-        <a class="btn-down d-none d-lg-block">
-            <span class="arrow"></span>
-            <span class="text">Role para baixo</span>
-        </a>
+        <center><a id="btn-comprar" href="#comprar" class="btn-buy mt-4 mb-4 border solid 3px border-dark">EU QUERO COMPRAR</a></center>
     </section>
+    
     <section id="composicao" class="about">
         <div class="container">
             <h2>refit, o programa perfeito<nobr>para sua saúde!</nobr>
@@ -282,16 +280,16 @@
                     <div class="product bg-offer" data-tilt data-tilt-perspective="800" data-tilt-speed="600"
                         data-tilt-max="20">
                         <span class="product--offer">Oferta</span>
-                        <h4>Pacote 3 E-Books</h4>
+                        <h4>Pacote Método <br>Refit</h4>
                         <div class="product--offer-bg mt-5 mb-4">
                             <img src="images/3-cell.png" class="img-3-meses" />
-                            <div class="product-price"><b>R$ 97,00</b>Os 3 E-Books</div>
+                            
                         </div>
-                        <span class="content">Contém 3 Cursos do Refit</span>
+                        
                         <div class="percent-desconto" style="background-color: #629026;color: #fff;">
-                            19% DE DESCONTO
+                            75% DE DESCON
                         </div><br>
-                        <span class="price-old"><strike>De: R$ 120,00</strike></span>
+                        <span class="price-old"><strike>De: R$ 399,00</strike></span>
                         <span class="from">Por apenas <b>R$ 97,00</b></span>
                         <span class="to">ou 12x de <b>R$8,<b>90</b></b></span>
                     </div>
@@ -311,11 +309,9 @@
             <div class="row">
                 <div class="col-lg-7 offset-lg-1 text-center">
                     <h2 class="mt-3 mb-3">DESAFIO 7 DIAS com Refit</h2>
-                    <p>Compre o <b>REFIT</b> utilize por 7 dias, e caso não <br class=" d-none d-lg-block" />tenha
-                        resultados visíveis, devolvemos 100% do seu dinheiro.</p>
-                    <p><b>VOCÊ TERÁ ATÉ 7 DIAS APÓS A COMPRA PARA DEVOLUÇÃO. SEU <nobr>RISCO POR TENTAR É ZERO!</nobr>
-                        </b></p>
-                    <p class="info">*Uso conforme embalagem do produto leia nossos termos e políticas</p>
+                    <p>Oferecemos uma garantia completa para uma melhor satisfação<br class=" d-none d-lg-block" />Se você não estiver totalmente satisfeito nos primeiros 7 dias, 
+                        basta entrar em contato com nosso suporte e nós efetuaremos o reembolso.</p>
+                    <p class="info">*Entrega imediata</p>
                 </div>
                 <div class="col-lg-2 offset-lg-1 text-center mt-4 mt-lg-0">
                     <img src="images/selo.png" />
@@ -422,38 +418,28 @@
     <section class="smash-mobile d-block d-lg-none">
     </section>
     <footer id="rodape">
-        <div class="leafs-mobile-footer d-block d-lg-none">
-        </div>
         <div class="container">
             <div class="row mt-5">
                 <div class="col-lg-4 offset-lg-1">
-                    Contato
-                    <br>
-                    <a href="mailto:Contato@emfoconasaude.com" target="_blank">
-                        <img src="images/mail.svg" alt="Email Icon"> Contato@emfoconasaude.com
-                    </a>
+                    <a href="mailto:Contato@emfoconasaude.com"><ion-icon name="mail-sharp"></ion-icon> Contato@emfoconasaude.com</a><br>
+                    <a href="#" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon> Facebook
+                    </a> <br />
+                    <a href="#" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon> Instagram
+                    </a><br />
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
                     <a href="termos-de-uso.html">Termos de Uso</a>
-                    <br>
                     <a href="politica-de-privacidade.html">Política de privacidade</a>
-                </div>
-                <div class="col-lg-3 mt-4 mt-lg-0">
-                    <a href="#" target="_blank">
-                        <img src="images/logo-facebook.svg" alt="Facebook Icon"> Facebook
-                    </a>
-
-                    <a href="#" target="_blank">
-                        <img src="images/logo-whatsapp.svg" alt="Instagram Icon"> Instagram
-                    </a>
                 </div>
             </div>
         </div>
     </footer>
-
     <a id="seta" href="#topo" class="btn-footer d-block d-lg-none">
         <img src="images/arrow-footer.png" />
     </a>
+    <script src="assets/js/ckin.js"></script>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.enllax.min.js"></script>
@@ -466,7 +452,8 @@
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script src="assets/js/ckin.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- Oferta 1 -->
     <div class="modal fade" id="modalOferta" tabindex="-1" role="dialog" aria-labelledby="modalOferta1"
         aria-hidden="true">

@@ -290,11 +290,13 @@ function stepForm2() {
 // window.addEventListener('load', function() {
 // 	var section = document.getElementById('topo');
 // 	var footer = document.getElementById('rodape');
+// 	var btn = document.getElementById('btn-comprar');
 // 	var parent = footer.parentNode;
   
+// 	footer.style.height = '100%';
 // 	parent.insertBefore(footer, section.nextSibling); // Move o footer para ficar depois da section
 // 	document.body.style.overflow = 'hidden';
-  
+// 	btn.style.display = 'none';
 // 	var Seta = document.getElementById('seta');
 // 	var meuVideo = document.getElementById('vsl');
   
@@ -302,9 +304,11 @@ function stepForm2() {
 // 	  if (meuVideo.currentTime >= 5) {
 // 		setTimeout(function() {
 // 		  parent.insertBefore(footer, Seta); // Move o footer para ficar acima do footer
-// 		  document.body.style.overflow = 'auto'; // Ativar a rolagem do corpo do documento
+// 		  document.body.style.overflow = 'auto';
+// 		  footer.style.height = '';
+// 		  btn.style.display = 'inline-block'; // Ativar a rolagem do corpo do documento
 // 		}, 5000); // Aguarda 5 segundos (5000 milissegundos) antes de executar o código
-// 		meuVideo.removeEventListener('timeupdate', arguments.callee); // Remove o listener após desbloquear o site
+// 		meuVideo.removeEventListener('timeupdate', arguments.callee);// Remove o listener após desbloquear o site
 // 	  }
 // 	});
 //   });

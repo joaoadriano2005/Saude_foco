@@ -2,6 +2,9 @@ html,
 body {
     height: 100%;
 }
+#show {
+    display: flex;
+}
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -188,6 +191,7 @@ nobr {
     transition: .5s;
 }
 .hero {
+    background-image: url("../../images/fundo.png");
     position: relative;
     height: auto;
     background-color: #FFFAF5;
@@ -2010,9 +2014,7 @@ footer .btn--newsletter:hover {
     color: #666;
 }
 .text-vsl {
-    color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin-top: 5%;
@@ -2020,6 +2022,7 @@ footer .btn--newsletter:hover {
     overflow: hidden;
     text-transform: uppercase;
 }
+ion-icon {
+    font-size: 20px;
+  }
 
-
-  
